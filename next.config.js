@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/metaversus",
+  output: "export",
+  distDir: 'dist',
   experimental: {
     appDir: false,
   },
